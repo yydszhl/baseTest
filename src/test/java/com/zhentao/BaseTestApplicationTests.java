@@ -31,7 +31,7 @@ class BaseTestApplicationTests {
         } else {
             System.out.println("无注解，需要授权");
         }
-        赵泽阳
+        int i;
 
     }
 
