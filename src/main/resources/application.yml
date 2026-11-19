@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+
+# MyBatis-Plus配置不变
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: com.futu.*.domain
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
